@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather apk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="titleCard">
+        <p class="title"><span>Weather</span> APK</p>
+        <p class="desc">Get the weather information</p>
+        </div>
+        <div class="card">
+        <input id="cityInput" class="inputBox" type="text" placeholder="Enter your city">
+        <button id="searchBtn" class="btnSearch">Search</button>
+       </div>
+       
+       <div id="outputCard" class="output">
+        <div class="cityNameCard">
+        <p id="city-name"></p>
+        <p id="countryName"></p>
+        </div>
+
+        <div class="tempCard">
+            <p id="temp"></p><sup id="sup"></sup>
+            <p id="party"></p>
+        </div>
+        <p id="wind"></p>
+        <p id="humidity"></p>
+       </div>
+    </div>
+</body>
+<script src="apk.js"></script>
+</html>
